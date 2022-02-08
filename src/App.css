@@ -1,0 +1,51 @@
+* {
+  margin : 0 ;
+}
+
+.app {
+  background-color: #fafafa;
+
+ }
+
+
+ .modal__image{
+  width: 100px;
+  height: 50px;
+  object-fit : contain  ;
+ }
+
+.app__header {
+  object-fit : contain  ;
+  background-color: white ; 
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.app__headerImage{
+  width: 100px;
+  height: 50px;
+  object-fit : contain  ;
+}
+
+
+.app__signup{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.app__loginContainer{
+  display: flex; 
+  flex-direction: row;
+  object-fit : contain  ;
+}
+
+
+.app__posts{
+  padding: 20px;
+}

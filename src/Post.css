@@ -1,0 +1,89 @@
+.post{
+    background-color: white;
+    max-width: 500px;
+    border : 1px solid lightgray ; 
+    margin-bottom: 45px;
+    
+}
+
+.post__Image{
+    height: 500px;
+    width: 100%;
+  object-fit :  cover  ;
+    border-top: 1px solid lightgray; 
+    border-bottom: 1px solid lightgray; 
+  }
+
+
+.post__Video{
+    height: 500px;
+    width: 100%;
+    object-fit : cover  ;
+    border-top: 1px solid lightgray; 
+    border-bottom: 1px solid lightgray; 
+  }
+
+
+
+
+
+.post__header{
+    display: flex ; 
+    align-items: center;
+    padding: 20px;
+}
+
+.post__text{
+    padding: 20px;
+    text-align: left;
+    font-weight: normal;
+  }
+  
+
+
+.post__avatar
+{
+    margin-right: 10px;
+}
+
+.post__commentBox{
+  padding: 10px;
+  text-align: left;
+  font-weight: normal;
+  display: flex;
+
+}
+
+.post__comments{
+
+  text-align: left;
+  font-weight: normal;
+
+
+}
+
+.post__commentsInside{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.post__input {
+  flex : 1 ;
+  border : none ; 
+  padding:  10px;
+  border-top: 1px solid lightgray;
+}
+
+
+.post__button{
+    flex :0 ; 
+    padding: 5px;
+    border : none  ;
+    color : #6082a3 ; 
+    border-top: 1px solid lightgray; 
+}
+
+.post__comment_word{
+  text-align: left;
+}
